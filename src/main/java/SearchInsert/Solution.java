@@ -2,7 +2,8 @@ package SearchInsert;
 
 // no.35
 public class Solution {
-    // no much iteration or recursion, you should first focus on small case and consider how bigger case become small
+    // no matter using iteration or recursion,
+    // you should first focus on small case and consider how bigger case become small
     public int searchInsert(int[] nums, int target) {
         int i = 0;
         int j = nums.length - 1;
